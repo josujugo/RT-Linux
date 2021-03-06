@@ -45,16 +45,16 @@ while True:
 		time.sleep(0.5)
 		print("Trying again ...")
 
-sys.stderr.write('connecting FROM '+str(server_addressS))
+sys.stderr.write('connecting FROM '+str(server_addressS)+'\n')
 
 server_addressC = '/tmp/ssock'
 
 tr=True
 
 while tr:
-	sys.stderr.write('connecting to '+str(server_addressC))
+	sys.stderr.write('connecting to '+str(server_addressC)+'\n')
 	try:
-		sock_out.connect(server_addressC)
+		#sock_out.connect(server_addressC)
 		tr=False 
 	except socket.error as msg:
 		sys.stderr.write(msg)
@@ -67,9 +67,10 @@ while True:
     ii=ii+1
     #time.sleep(0.1)
     data = connection.recv(8)
-    data0.value[0]= 5*struct.unpack('d',data)[0]
-    #print(data0.value[0])
-    sock_out.sendall(data0) #str(ii*0.1))
+    data0.value[0]= 50*struct.unpack('d',data)[0]
+    connection.sendall(data0)
+    #connection.sendall(data)
+    #sock_out.sendall(data0) #str(ii*0.1))
    except KeyboardInterrupt:
     time.sleep(1)
     #ret=connection.close()

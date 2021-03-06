@@ -1,0 +1,1 @@
+{"lib": "Communication", "name": "UnixSkClient1", "ip": 1, "op": 1, "stin": 1, "stout": 1, "icon": "UNIXSOCK", "params": "unixsocketCBlk1|Socket: 'bsock'"}
