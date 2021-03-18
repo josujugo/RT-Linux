@@ -1,0 +1,3 @@
+This block implements a Unix Sochet Client-Server to receive and send the data by mean of a Unix Socket.
+
+
