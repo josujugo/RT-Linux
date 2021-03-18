@@ -1,0 +1,2 @@
+{"lib": "Raspberry", "name": "ledBlk", "ip": 1, "op": 0, "stin": 1, "stout": 0, "icon": "led", "params": "ledBlk|pin Number: '17'"}
+
