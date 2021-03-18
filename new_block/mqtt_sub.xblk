@@ -1,1 +1,0 @@
-{"lib": "Communication", "name": "mqtt_sub", "ip": 0, "op": 1, "stin": 0, "stout": 1, "icon": "mosquitto", "params": "mqtt_subBlk|Topic: 'paho'}
