@@ -1,0 +1,22 @@
+--- tmp.txt	2025-02-06 10:31:40
++++ tmp1.txt	2025-02-06 10:32:26
+@@ -4,14 +4,16 @@
+ type=ethernet
+-
++autoconnect=true
++interface-name=usb0
++  
+ [ethernet]
+-
++  
+ [ipv4]
+-method=auto
+-
++method=shared
++  
+ [ipv6]
+ addr-gen-mode=default
+ method=auto
+-
++  
+ [proxy]

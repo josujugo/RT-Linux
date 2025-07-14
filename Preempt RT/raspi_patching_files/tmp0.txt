@@ -1,0 +1,15 @@
+[connection]
+id=ethernet-usb1
+uuid=6961bcca-efb3-41d9-9ae3-cab00e18aac1
+type=ethernet
+
+[ethernet]
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]

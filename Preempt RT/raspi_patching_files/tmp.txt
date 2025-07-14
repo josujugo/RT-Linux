@@ -1,0 +1,17 @@
+[connection]
+id=ethernet-usb0
+uuid=6961bcca-efb3-41d9-9ae3-cab00e18aac1
+type=ethernet
+autoconnect=true
+interface-name=usb0
+  
+[ethernet]
+  
+[ipv4]
+method=shared
+  
+[ipv6]
+addr-gen-mode=default
+method=auto
+  
+[proxy]
